@@ -34,3 +34,5 @@ git checkout -b NAZWA_GALEZI
 
 // Pokazuje listę śledzonych plików
 git ls-files
+
+// ...
