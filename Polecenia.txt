@@ -1,0 +1,36 @@
+// Ustaw dane użytkownika
+git config --global user.name "Bartosz Staniszewski"
+git config --global user.email "b.staniszewski@aeronic.pl"
+
+// Wyświetl konfigurację
+git config --list
+git config --list --global
+git config --list --local
+git config --list --system
+
+// Dodaj wszystkie zmiany 
+git add .
+
+// Dodaj zmiany we wskazanym pliku
+git add NAZWA_PLIKU
+
+// Co zostało dodane
+git status
+
+// Utwórz commit
+git commit -m "Initial Commit"
+
+// Pokaż historię
+git log
+
+// Przełącz do wybranego commita
+git checkout COMMIT_HASH
+
+// Przełącz do wybranej gałęzi (na koniec gałęzi) 
+git checkout NAZWA_GALEZI
+
+// Tworzy i przełącza na nową gałąź
+git checkout -b NAZWA_GALEZI
+
+// Pokazuje listę śledzonych plików
+git ls-files
